@@ -4,22 +4,32 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #FFFFFF;
+    font-size: large;
+    font-style: initial;
 }
-
-
+.section{
+    padding-right: 60px;
+}
+h1{
+    font-size: x-large;
+}
 .anchor-button{
     text-decoration: none;
     background: green;
     border-radius: 5px;
     padding: 10px 40px;
     color: rgb(200, 241, 13);
+
 }
 .earth{
     width: 40%;
     float: left;
-    margin-left: 5%;
-    padding-left: 3%;
+    margin-left: 5;
+    padding-left: 3px;
     padding-bottom: 20px;
+}
+.earth img{
+    height: 450px;
 }
 .container{
     background-color: lightgreen;
@@ -28,10 +38,92 @@ body{
     height: 400px;
     margin-right: 70px;
     margin-left: 70px;
-    margin-bottom: 900px;
+    margin-bottom: 40px;
 }
 .half-width{
     width:50%;
     margin-left: 7%;
     padding-left: 3%;
+}
+.ball{
+        background-color:rgb(11, 56, 6);
+        border-radius: 10px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        height: 200px;
+        width: 250px;
+        margin-right: 35px;
+        margin-left:35px;
+        border-width: 15px;
+    }
+.play-card  .from{
+    display: flex;
+    align-items: center;
+}
+.button{
+    background-color: green;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 40px;
+    color:rgb(200, 241, 13) ;
+    margin-top: 1em;
+}
+.anchor{   
+    background-color:rgb(200, 241, 13) ;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 40px;
+    color: green;
+    margin-top: 1em;
+}
+
+.play-card{
+    display: grid;
+    width: fit-content;
+    padding-left: 100px;
+    align-items: center;
+}
+.goal{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px; 
+    margin-top: 20px;
+}
+section{
+    background-color: rgba(52, 161, 67, 0.575);
+    margin-top: 30px;
+    padding: 100px
+}
+p{
+    text-align: justify;
+    padding-top: 10px;
+}
+.blog{
+    border: 2px solid limegreen;
+    border-radius: 15px;
+
+ } 
+.blog img{
+    width: 350px;
+  }
+.keeper{
+        margin-bottom: 10px;
+        margin-left: 15px;
+  } 
+.flag{
+    text-align:center;
+}
+.flag23{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bolder ;
+    font-size: x-large;
+}
+hr{
+    border: 2px solid rgb(3, 61, 3);
+}
+footer{
+    text-align:center;
 }
